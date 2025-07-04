@@ -59,6 +59,24 @@ body {
 /* GENERAL REUSEABLE COMPONENTS */
 /***************************/
 
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.grid {
+    display: grid;
+    gap: 9.6rem;
+}
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
 .heading-primary {
     font-size: 5.2rem;
     font-weight: 700;
@@ -122,7 +140,7 @@ header {
 }
 
 /***************************/
-/* HEADER */
+/* MAIN NAV */
 /***************************/
 
 .main-nav-list {
@@ -150,12 +168,10 @@ header {
     border-radius: 9px;
     color: #fff;
     background-color: #e67e22;
-
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
     background-color: #cf711f;
-
 }
 
 /***************************/
@@ -211,4 +227,30 @@ header {
 .delivered-text span {
     color: #cf711f;
     font-weight: 700;
+}
+
+/***************************/
+/* HOW IT WORKS SECTION */
+/***************************/
+
+.section-how {
+    padding: 9.6px 0;
+    background-color: orangered;
+}
+
+.section-how div {
+    padding: 100px;
+    font-size: 50px;
+}
+.section-how div:nth-child(1) {
+    background-color: aqua;
+}
+.section-how div:nth-child(2) {
+    background-color: blue;
+}
+.section-how div:nth-child(3) {
+    background-color: yellow;
+}
+.section-how div:nth-child(4) {
+    background-color: green;
 }
