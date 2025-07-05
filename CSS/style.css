@@ -12,6 +12,7 @@
     height: 9.6rem;
     padding: 0 4.8rem;
 }
+
 .logo {
     height: 2.2rem;
 }
@@ -26,6 +27,7 @@
     align-items: center;
     gap: 3.2rem;
 }
+
 .main-nav-link:link,
 .main-nav-link:visited {
     display: inline-block;
@@ -35,10 +37,12 @@
     font-size: 1.8rem;
     transition: all 0.3s;
 }
+
 .main-nav-link:hover,
 .main-nav-link:active {
     color: #cf711f;
 }
+
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
     padding: 1.2rem 2.4rem;
@@ -46,6 +50,7 @@
     color: #fff;
     background-color: #e67e22;
 }
+
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
     background-color: #cf711f;
@@ -59,6 +64,7 @@
     background-color: #fdf2e9;
     padding: 4.8rem 0 9.6rem 0;
 }
+
 .hero {
     max-width: 130rem;
     margin: 0 auto;
@@ -68,6 +74,7 @@
     gap: 9.6rem;
     align-items: center;
 }
+
 .hero-description {
     font-size: 2rem;
     line-height: 1.6;
@@ -84,9 +91,11 @@
     align-items: center;
     gap: 1.6rem;
 }
+
 .delivered-imgs {
     display: flex;
 }
+
 .delivered-imgs img {
     height: 4.8rem;
     width: 4.8rem;
@@ -94,13 +103,16 @@
     margin-right: -1.6rem;
     border: 3px solid #fdf2e9;
 }
+
 .delivered-imgs img:last-child {
     margin: 0;
 }
+
 .delivered-text {
     font-size: 1.8rem;
     font-weight: 600;
 }
+
 .delivered-text span {
     color: #cf711f;
     font-weight: 700;
@@ -113,6 +125,7 @@
 .section-featured {
     padding: 4.8rem 0 3.2rem 0;
 }
+
 .heading-featured-in {
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -122,11 +135,13 @@
     margin-bottom: 2.4rem;
     color: #888;
 }
+
 .logos {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .logos img {
     height: 3.2rem;
     filter: brightness(0);
@@ -140,16 +155,19 @@
 .section-how {
     padding: 9.6rem 0;
 }
+
 .step-number {
     font-size: 8.6rem;
     font-weight: 600;
     color: #ddd;
     margin-bottom: 1.2rem;
 }
+
 .step-description {
     font-size: 1.8rem;
     line-height: 1.8;
 }
+
 .step-img-box {
     position: relative;
 
@@ -157,6 +175,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .step-img-box::before,
 .step-img-box::after {
     content: "";
@@ -167,6 +186,7 @@
     transform: translate(-50%, -50%);
     border-radius: 50%;
 }
+
 .step-img-box::before {
     width: 60%;
     /* height: 60%; */
@@ -174,6 +194,7 @@
     background-color: #fdf2e9;
     z-index: -2;
 }
+
 .step-img-box::after {
     width: 45%;
     /* height: 60%; */
@@ -181,6 +202,7 @@
     background-color: #fae5d3;
     z-index: -1;
 }
+
 .step-img {
     width: 35%;
 }
@@ -192,24 +214,29 @@
 .section-meals {
     padding: 9.6rem 0;
 }
+
 .meal {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 11px;
     overflow: hidden;
     transition: all 0.4s;
 }
+
 .meal:hover {
     transform: translateY(-1.2rem);
     box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
+
 .meal-content {
     padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
+
 .meal-tags {
     margin-bottom: 1.2rem;
     display: flex;
     gap: 0.4rem;
 }
+
 .tag {
     display: inline-block;
     padding: 0.4rem 0.8rem;
@@ -218,21 +245,26 @@
     color: #333;
     border-radius: 100px;
 }
+
 .tag--vegetarian {
     background-color: #51cf66;
 }
+
 .tag--vegan {
     background-color: #94d82d;
 }
+
 .tag--paleo {
     background-color: #ffd43b;
 }
+
 .meal-title {
     font-size: 2.4rem;
     color: #333;
     font-weight: 600;
     margin-bottom: 3.2rem;
 }
+
 .meal-attributes {
     list-style: none;
 
@@ -240,6 +272,7 @@
     flex-direction: column;
     gap: 2rem;
 }
+
 .meal-attribute {
     font-size: 1.8rem;
 
@@ -247,14 +280,17 @@
     align-items: center;
     gap: 1.6rem;
 }
+
 .meal-icon {
     height: 2.4rem;
     width: 2.4rem;
     color: #e67e22;
 }
+
 .meal-img {
     width: 100%;
 }
+
 .all-recipes {
     text-align: center;
     font-size: 1.8rem;
@@ -270,43 +306,52 @@
     grid-template-columns: 55fr 45fr;
     align-items: center;
 }
+
 .testimonial-container {
     padding: 9.6rem;
 }
+
 .testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 4.8rem;
     column-gap: 8rem;
 }
+
 .testimonial-img {
     width: 6.4rem;
     border-radius: 50%;
     margin-bottom: 1.2rem;
 }
+
 .testimonial-text {
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 1.6rem;
 }
+
 .testimonial-name {
     font-size: 1.6rem;
     color: #6f6f6f;
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
     padding: 1.6rem;
 }
+
 .gallery-item {
     overflow: hidden;
 }
+
 .gallery-item img {
     display: block;
     width: 100%;
     transition: all 0.4s;
 }
+
 .gallery-item img:hover {
     transform: scale(1.1);
 }
@@ -318,20 +363,24 @@
 .section-pricing {
     padding: 9.6rem 0;
 }
+
 .pricing-plan {
     border-radius: 11px;
     padding: 4.8rem;
     width: 75%;
 }
+
 .pricing-plan--starter {
     justify-self: end;
     box-shadow: inset 0 0 0 2px #fdf2e9;
 }
+
 .pricing-plan--complete {
     background-color: #fdf2e9;
     position: relative;
     overflow: hidden;
 }
+
 .pricing-plan--complete::after {
     content: "Best Value";
     position: absolute;
@@ -346,10 +395,12 @@
     padding: 0.8rem 8rem;
     transform: rotate(45deg);
 }
+
 .plan-header {
     text-align: center;
     margin-bottom: 4.8rem;
 }
+
 .plan-name {
     color: #cf711f;
     font-weight: 600;
@@ -358,46 +409,54 @@
     letter-spacing: 0.75;
     margin-bottom: 3.2rem;
 }
+
 .plan-price {
     font-size: 6.2rem;
     font-weight: 600;
     color: #333;
     margin-bottom: 1.6rem;
 }
+
 .plan-price span {
     font-size: 3rem;
     font-weight: 500;
     margin-right: 0.8rem;
 }
+
 .plan-text {
     font-size: 1.6rem;
     line-height: 1.6;
     color: #6f6f6f;
 }
+
 .plan-sign-up {
     text-align: center;
     margin-top: 4.8rem;
 }
+
 .plan-detail {
     font-size: 1.6rem;
     line-height: 1.6;
     text-align: center;
 }
+
 .feature-icon {
     color: #e67e22;
     height: 3.2rem;
     width: 3.2rem;
-background-color: #fdf2e9;
+    background-color: #fdf2e9;
     margin-bottom: 3.2rem;
     padding: 1.6rem;
     border-radius: 50%;
 }
+
 .feature-title {
     font-size: 2.4rem;
     color: #777;
     font-weight: 700;
     margin-bottom: 1.6rem;
 }
+
 .feature-text {
     font-size: 1.8rem;
     line-height: 1.8;
