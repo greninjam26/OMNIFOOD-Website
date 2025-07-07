@@ -3,6 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailered to your personal tastes and nutritional needs."
+        />
+
+        <link rel="icon" href="img/favicon.png" />
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+        <link rel="manifest" href="manifest.webmanifest" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -14,7 +23,7 @@
         <link rel="stylesheet" href="CSS/queries.css" />
 
         <script defer src="Javascript/script.js"></script>
-        <title>OMNIFOOD</title>
+        <title>OMNIFOOD &mdash; Never cook again!</title>
     </head>
     <body>
         <header class="header">
@@ -25,7 +34,9 @@
                 <ul class="main-nav-list">
                     <li><a href="#how" class="main-nav-link">How it works</a></li>
                     <li><a href="#meals" class="main-nav-link">Meals</a></li>
-                    <li><a href="#testimonials" class="main-nav-link">Testimonials</a></li>
+                    <li>
+                        <a href="#testimonials" class="main-nav-link">Testimonials</a>
+                    </li>
                     <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
                     <li>
                         <a href="#cta" class="main-nav-link nav-cta">Try for free</a>
@@ -86,11 +97,16 @@
                         </div>
                     </div>
                     <div class="hero-image-box">
-                        <img
-                            src="img/hero.png"
-                            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-                            class="hero-img"
-                        />
+                        <!-- fail-safe for the image, just in case webp doesn't work for the browser -->
+                        <picture>
+                            <source srcset="img/hero.webp" type="image/webp" />
+                            <source srcset="img/hero-min.png" type="image/png" />
+                            <img
+                                src="img/hero-min.png"
+                                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+                                class="hero-img"
+                            />
+                        </picture>
                     </div>
                 </div>
             </section>
@@ -690,7 +706,8 @@
                         </li>
                     </ul>
                     <p class="copyright">
-                        Copyright &copy; <span class="year">2027</span> by Omnifood, Inc. All rights reserved.
+                        Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+                        All rights reserved.
                     </p>
                 </div>
                 <div class="address-col">
