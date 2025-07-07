@@ -128,7 +128,8 @@ use em because rem might not work
     }
 
     .main-nav {
-        background-color: rgba(255, 255, 255, 0.97);
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(10px);
         position: absolute;
         top: 0;
         left: 0;
